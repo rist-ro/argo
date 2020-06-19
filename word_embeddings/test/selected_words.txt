@@ -1,0 +1,7 @@
+dog
+cat
+man
+woman
+king
+queen
+italy

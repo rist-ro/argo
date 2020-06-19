@@ -1,0 +1,7 @@
+#!/bin/bash
+
+python plot_sim_and_an.py enwiki-v50-n1000 -o /data2/text/
+python plot_sim_and_an.py enwiki-v300-n1000 -o /data2/text/
+python plot_sim_and_an.py geb-v50-n1000 -o /data2/text/
+python plot_sim_and_an.py geb-v300-n1000 -o /data2/text/
+

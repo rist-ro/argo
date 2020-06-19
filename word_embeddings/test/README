@@ -1,0 +1,20 @@
+
+==========================
+Evaluate word embeddings
+==========================
+
+all stats
+extract_stats.py to extract the statistics (pca, distances and distributions)
+plot_data to plot the output of extract_stats that needs to be plot
+
+similarities_datasets
+evaluate_similarities.py
+
+analogies
+evaluate_analogies.py
+e.g.
+ bash eval path/glove1.2-simplewiki201711-m0100-v300-sw10-lr0.001-n500-vectors.txt 300
+it will evaluate the word embeddings according to the standard analogies datasets.
+Results will be put in /data/text/word_embeddings/analysis/
+
+----------------------------------------------------------------------------------------------

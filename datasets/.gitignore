@@ -1,0 +1,80 @@
++# .gitignore file for LyX and LaTeX projects 
+
+# Ignore everything in the tests and old  directories
+# where experimental and outdated stuff are storaged
+#tests
+
+BelgiumTSC/
+plots/*.txt
+plots/*.png
+examples/*.conf~
+scripts/*.conf~
+
+*.ipynb_checkpoints*
+
+MNIST_data
+
+# Ignore swap files
+.*.swp
+
+# Ignore all the output  files (dvi or pdf)
+#*.pdf
+#*.dvi
+
+# Ignore standard latex's compilation files
+*.out
+*.log
+*.aux
+
+# Ignore TexMaker compilation files
+*.synctex.gz
+
+# Ignore JabRef bkup files
+*.bib.bak
+.$*.bib$
+
+# ingnore lyx VCS files and backups
+\#*.lyx\#
+*.lyx,v
+*.lyx~
+
+# LaTeX gitignore from github:
+*.aux
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+*.acn
+*.acr
+*.alg
+*.bbl
+*.blg
+*.dvi
+*.glg
+*.gls
+*.ilg
+*.ind
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.out
+*.synctex.gz
+
+*.pyc
+*.py~
+*.py#
+
+# Ignore partial pdf files for chapters
+
+Chap*/Chap*.pdf
+
+# Ignore dropbox config files
+.dropbox
+
+# Ignore Jetbrains config files
+.idea
+
+BRATS_data

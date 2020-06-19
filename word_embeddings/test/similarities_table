@@ -1,0 +1,5 @@
+#!/bin/bash
+
+FILENAMES=$(ls -rt /data2/text/word_embeddings/analysis/glove*/similarity-*.txt)
+
+bash $HOME/scripts/extract_table $FILENAMES --grep CORR --column 3
