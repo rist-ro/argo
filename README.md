@@ -99,3 +99,4 @@ In alphabetical order.
 ## Acknowledgements
 The library has been developed in the context of the DeepRiemann project, co-funded by the European Regional Development Fund and the Romanian Government
 through the Competitiveness Operational Programme 2014-2020, Action 1.1.4, project ID P_37_714, SMIS code 103321, contract no. 136/27.09.2016.
+
