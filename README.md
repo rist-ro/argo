@@ -1,6 +1,8 @@
 # argo
 
-Argo is a library for deep learning algorithms based on tensorflow and sonnet.
+Argo is a library for deep learning algorithms based on TensorFlow and Sonnet.
+The library allows you to train different models (feed-forwards neural networks for regression and classification problems, autoencoders and variational autoencoders, Bayesian neural networks, Helmholtz machines, etc) by specifying their parameters as well as the network topologies in a configuration file. The models can then be trained in parallel in presence of multiple GPUs. The library is easy to expand for alternative models and training algorithms, as well as for different network topologies. 
+
 
 ## Installation
 
