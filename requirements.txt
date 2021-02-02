@@ -5,7 +5,7 @@ attrs==19.3.0
 audioread==2.1.8
 backcall==0.1.0
 beautifulsoup4==4.8.0
-bleach==3.1.4
+bleach==3.3.0
 blingfire==0.0.11
 boto==2.49.0
 boto3==1.9.228
