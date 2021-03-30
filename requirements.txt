@@ -96,7 +96,7 @@ psutil==5.6.3
 ptyprocess==0.6.0
 py==1.8.0
 pycparser==2.19
-Pygments==2.6.1
+Pygments==2.7.4
 pyGTC==0.3.1
 pyparsing==2.4.0
 pyrsistent==0.16.0
